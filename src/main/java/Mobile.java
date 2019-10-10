@@ -1,13 +1,13 @@
-public class Mobile {
-    private String name;
+public class Mobile extends Person{
+    private String phoneName;
     private String color;
     private String brand;
 
-    public void setName(String name){
-        this.name = name;
+    public void setPhoneName(String name){
+        this.phoneName = name;
     }
-    public String getName(){
-        return this.name;
+    public String getPhoneName(){
+        return this.phoneName;
     }
 
     public void setColor(String color){
@@ -27,5 +27,9 @@ public class Mobile {
 
     public void message(String message){
         System.out.println("Message : " + message);
+    }
+
+    public String phoneInformation(){
+        return "name: " + getPhoneName() + ", color: " + getColor() + ", brand: " + getBrand();
     }
 }
