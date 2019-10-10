@@ -1,3 +1,5 @@
+package Model;
+
 public class Iphone extends Mobile{
     private final int msgLimit = 15;
     @Override
