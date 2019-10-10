@@ -1,3 +1,5 @@
+package Model;
+
 public class Mobile{
     private String name;
     private String color;
@@ -31,7 +33,7 @@ public class Mobile{
     }
 
     public String getMessage(){
-        return this.message;
+        return "Message : " + this.message;
     }
 
     public String getPhoneInformation(){
