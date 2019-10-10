@@ -1,11 +1,11 @@
+package User;
+
+import Model.Mobile;
+
 public class Person {
     private String name;
-    Person(String name){
+    public Person(String name){
        this.name = name;
-    }
-
-    public String getName(){
-        return this.name;
     }
 
     public void makeCall(Mobile mobile, String message){
